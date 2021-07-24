@@ -120,7 +120,6 @@ function modalOpen(e) {
    lightboxImage.src = url;
 
    let idx = Number(e.target.dataset.id);
-   console.log(idx);
 
    window.addEventListener('keydown', e => {
       console.log('idx = ', idx);
