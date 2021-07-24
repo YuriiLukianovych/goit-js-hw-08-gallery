@@ -122,7 +122,6 @@ function modalOpen(e) {
    let idx = Number(e.target.dataset.id);
 
    window.addEventListener('keydown', e => {
-      console.log('idx = ', idx);
       if (e.code === 'ArrowRight' && idx < galleryItems.length - 1) {
          idx += 1;
       }
